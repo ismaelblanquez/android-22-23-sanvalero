@@ -1,4 +1,4 @@
-package com.svalero.mvp_simpson_01;
+package com.example.pokemon_api_01;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
 }
