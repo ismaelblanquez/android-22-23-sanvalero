@@ -1,6 +1,7 @@
 package com.example.pokemon_api_01.utils;
 
 import com.example.pokemon_api_01.lst_pokemons.entities.Pokemon;
+import com.example.pokemon_api_01.lst_pokemons.entities.PokemonRespuesta;
 
 import java.util.ArrayList;
 
@@ -10,7 +11,7 @@ import retrofit2.http.Query;
 
 public interface ApiInterface {
     @GET("pokemon")
-    Call<ArrayList<Pokemon>> getPokemons(@Query("limit") int limit , @Query("offset") int offset);
+    Call<PokemonRespuesta> getPokemons(@Query("limit") int limit , @Query("offset") int offset);
 
 //https://pokeapi.co/api/v2/pokemon?offset=0&limit=20
 /*
